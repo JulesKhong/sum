@@ -1,0 +1,7 @@
+sum.sum_form:
+  path: 'sum'
+  defaults:
+    _title: 'Add Two Numbers'
+    _form: '\Drupal\sum\Form\SumForm'
+  requirements:
+    _permission: 'access content'
