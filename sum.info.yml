@@ -1,7 +1,6 @@
-sum.sum_form:
-  path: 'sum'
-  defaults:
-    _title: 'Add Two Numbers'
-    _form: '\Drupal\sum\Form\SumForm'
-  requirements:
-    _permission: 'access content'
+name: Sum module
+description: Add two numbers and return the sum, using the Form API.
+package: Custom
+
+type: module
+core: 8.x
